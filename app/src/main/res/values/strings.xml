@@ -1,0 +1,19 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Lennox Rose app</string>
+    <string name="archive_icon">Archive Icon</string>
+    <string name="lihat_data">Lihat Data</string>
+    <string name="add_icon">Add Icon</string>
+    <string name="input_data">Input data</string>
+    <string name="info_icon">Info Icon</string>
+    <string name="informasi">informasi</string>
+    <string name="_1993_12_08" tools:ignore="TypographyDashes">1993–12-08</string>
+    <string name="l_atau_p">L atau P</string>
+    <string name="simpan">Simpan</string>
+    <string name="lennox_logo">Lennox Logo</string>
+    <string name="nim">NIM</string>
+    <string name="nama">Nama</string>
+    <string name="tanggal_lahir">Tanggal Lahir</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="alamat">Alamat</string>
+    <string name="textview" />
+</resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="CPrimary">#FF9292</color>
+    <color name="CSecondary">#FF9292</color>
+    <color name="CBlue">#FF9292</color>
+    <color name="CCyan">#1597E5</color>
+    <color name="CAqua">#69DADB</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

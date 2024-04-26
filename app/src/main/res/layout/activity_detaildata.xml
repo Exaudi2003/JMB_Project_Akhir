@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/CAqua"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="40dp"
+    android:layout_height="match_parent"
+    tools:context=".Detaildata">
+    <ImageView
+        android:layout_marginTop="30dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ling"
+        android:contentDescription="@string/lennox_logo" />
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/TextView01"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nim"
+            app:drawableStartCompat="@drawable/ic_baseline_create_24" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:text="@string/textview" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/CCyan"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextView02"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nama"
+            app:drawableStartCompat="@drawable/ic_baseline_group_24" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/textview" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/CCyan"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextView03"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tanggal_lahir"
+            app:drawableStartCompat="@drawable/ic_baseline_date_range_24" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/textview" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/CCyan"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextView04"
+            android:textSize="16sp"
+            android:textColor="@android:color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/jenis_kelamin"
+            app:drawableStartCompat="@drawable/ic_baseline_person_24" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:text="@string/textview" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/CCyan"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:id="@+id/TextView05"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/alamat"
+            app:drawableStartCompat="@drawable/ic_baseline_place_24" />
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:text="@string/textview" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/CCyan"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
